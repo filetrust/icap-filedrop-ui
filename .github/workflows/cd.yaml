@@ -48,8 +48,8 @@ jobs:
         git config user.name github-actions
         
         # update imagestore selected tag value in the values.yaml file
-        yq write adaptation/values.yaml imagestore.${{ env.IMAGESTORESELECTOR }}.tag $IMAGE_TAG -i
-        git add adaptation/values.yaml
+        yq write filedrop/values.yaml imagestore.${{ env.IMAGESTORESELECTOR }}.tag $IMAGE_TAG -i
+        git add filedrop/values.yaml
         git commit -m 'update image tag'
         git push origin $IMAGE_TAG
         
