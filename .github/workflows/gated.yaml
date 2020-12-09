@@ -1,5 +1,7 @@
 name: Gated
-
+env:
+  IMAGE: icap-filedrop-ui
+  
 on:
   pull_request:
     branches: [ develop ]
