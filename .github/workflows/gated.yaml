@@ -1,10 +1,5 @@
 name: Gated
 
-env:
-  DOCKERHUB_USERNAME: icapserviceaccount
-  REPOSITORY: glasswallsolutions
-  IMAGE: icap-filedrop-ui
-  TAG: develop
 on:
   pull_request:
     branches: [ develop ]
@@ -17,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build Docker Image
-      run: docker build -t ${{ env.IMAGE }} .  
+      run: docker build -t ${{ env.IMAGE }} ./app  
