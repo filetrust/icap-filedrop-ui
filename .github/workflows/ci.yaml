@@ -1,4 +1,5 @@
 name: CI
+
 env:
   ICAPDOCKER_USERNAME: icapserviceaccount
   REPOSITORY: glasswallsolutions
