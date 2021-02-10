@@ -1,4 +1,4 @@
-name: CI
+name: CD
 env:
   ICAPDOCKER_USERNAME: icapserviceaccount
   REPOSITORY: glasswallsolutions
