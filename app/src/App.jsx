@@ -28,7 +28,7 @@ import FileDrop from "./containers/FileDrop/FileDrop";
 
 const App = () => {
 	const [navExpanded, setNavExpanded] = useState(true);
-	const { isAuth } = useContext(AuthContext);
+	const { isAuth } = { isAuth: true };
 	const { title } = useContext(GlobalStoreContext);
 
 	return (
