@@ -60,7 +60,7 @@ function RenderResults({
 				<>
 					<div data-test-id="divFileDropResults" className={classes.RenderResults} >
 						<SectionTitle externalStyles={classes.headline}>
-							Analisys Report
+							Analysis Report
 						</SectionTitle>
 
 						<div className={classes.container}>
