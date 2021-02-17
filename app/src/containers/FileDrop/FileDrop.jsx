@@ -204,13 +204,6 @@ const FileDrop = () => {
 											" "
 										)}
 									/>
-									{/* <Button
-										testId="buttonFileDropViewResult"
-										onButtonClick={() => setShowResult(true)}
-										externalStyles={classes.button}
-									>
-										VIEW RESULT
-								</Button> */}
 								</div>
 							</div>
 							<RenderResults
