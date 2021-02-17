@@ -204,13 +204,13 @@ const FileDrop = () => {
 											" "
 										)}
 									/>
-									<Button
+									{/* <Button
 										testId="buttonFileDropViewResult"
 										onButtonClick={() => setShowResult(true)}
 										externalStyles={classes.button}
 									>
 										VIEW RESULT
-								</Button>
+								</Button> */}
 								</div>
 							</div>
 							<RenderResults
